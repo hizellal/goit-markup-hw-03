@@ -24,43 +24,10 @@ a {
     text-decoration: none;
 }
 
-.container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+img {
+    display: block;
 }
 
-/* header */
-
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #fff;
-}
-  
-  /* reset */
-  
-  ul,
-  ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-}
-  
-  a {
-    text-decoration: none;
-}
-  
 /* common */
   
 .container {
@@ -79,6 +46,7 @@ body {
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
 /* header */
   
   .page-header {
