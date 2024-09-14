@@ -45,13 +45,13 @@ img {
   
 .page-header {
     border-bottom: 1px solid #e7e9fc;
-    margin: 0 auto;
 }
   
 .header-container {
     display: flex;
     align-items: center;
     width: 1158px;
+    margin: 0 auto;
     /*width: 1158px;
     padding: 0 15px 0 15px;
     margin: 0 auto;*/
