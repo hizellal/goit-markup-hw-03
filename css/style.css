@@ -31,7 +31,7 @@ img {
 /* common */
   
 .container {
-    width: 1158px;
+    max-width: 1158px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
 }
@@ -50,6 +50,8 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+    width: 1158px;
+    padding: 0 15px 0 15px;
 }
   
 .header-nav {
@@ -175,12 +177,16 @@ img {
     padding: 120px 0;
 }
 
+.visually-hidden {
+    visibility: hidden;
+}
+
 .portfolio-info .portfolio-head-text {
     visibility: hidden;
-    /*font-weight: 500;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;*/
+    letter-spacing: 0.02em;
 }
 
 .portfolio-padding {
@@ -200,6 +206,7 @@ img {
 }
 
 .portfolio-lists {
+    width: calc((100% - 72px) / 4);
     display: flex;
     align-items: center;
     gap: 24px;
@@ -303,6 +310,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .apps-padding {
@@ -317,10 +325,6 @@ img {
     gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px; 
-}
-
-.app-info-block {
-
 }
 
 .apps-info {
