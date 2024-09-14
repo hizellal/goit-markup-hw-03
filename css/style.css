@@ -227,7 +227,6 @@ img {
 
 .team-info .team-info-blocks .info-block {
     background: #fff;
-    width: calc((100% - 72px) / 4);
 }
 
 .team-title {
@@ -271,6 +270,7 @@ img {
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     text-align: center;
+    width: calc((100% - 72px) / 4);
 }
 
 .people-info {
