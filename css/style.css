@@ -216,6 +216,10 @@ img {
     gap: 24px;
 }
 
+.portfolio-list {
+    width: calc((100% - 72px) / 4);
+}
+
 /* end of second section */
 
 /* third section */
@@ -270,7 +274,6 @@ img {
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     text-align: center;
-    width: calc((100% - 72px) / 4);
 }
 
 .people-info {
