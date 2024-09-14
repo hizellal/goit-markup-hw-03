@@ -33,7 +33,8 @@ img {
 .container {
     max-width: 1158px;
     padding: 0 15px 0 15px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-padding {
@@ -179,13 +180,14 @@ img {
 }
 
 .visually-hidden {
+    max-width: 496px;
     position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
     border: 0;
     padding: 0;
-    
+
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -206,7 +208,6 @@ img {
     color: #2e2f42;
     margin-top: 8px;
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
 }
 
 .portfolio-lists {
@@ -226,6 +227,7 @@ img {
 
 .team-info .team-info-blocks .info-block {
     background: #fff;
+    width: calc((100% - 72px) / 4);
 }
 
 .team-title {
