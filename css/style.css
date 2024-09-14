@@ -52,9 +52,6 @@ img {
     align-items: center;
     width: 1158px;
     margin: 0 auto;
-    /*width: 1158px;
-    padding: 0 15px 0 15px;
-    margin: 0 auto;*/
 }
   
 .header-nav {
@@ -146,6 +143,8 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-section {
