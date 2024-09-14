@@ -52,6 +52,7 @@ img {
     align-items: center;
     width: 1158px;
     padding: 0 15px 0 15px;
+    margin: 0 auto;
 }
   
 .header-nav {
@@ -203,10 +204,10 @@ img {
     color: #2e2f42;
     margin-top: 8px;
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 
 .portfolio-lists {
-    width: calc((100% - 72px) / 4);
     display: flex;
     align-items: center;
     gap: 24px;
