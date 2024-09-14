@@ -286,6 +286,8 @@ body {
     text-align: center;
 }
 
+/*
+
 .social-accounts {
     width: 232px;
     padding-top: 8px;
@@ -298,6 +300,8 @@ body {
     align-items: center;
     gap: 24px;
 }
+
+*/
 
 /* end of third section */
 
@@ -362,3 +366,39 @@ body {
 }
 
 /* end of footer */
+
+/* div on the future 
+
+<div class="social-accounts">
+    <ul class="social-lists">
+            <li class="social-list">
+            <img src="images\Instagram.jpg" 
+            width="40"
+            height="40"
+            alt="Mark Guerrero image" 
+            />
+        </li>
+        <li class="social-list">
+            <img src="images\Twitter.jpg" 
+            width="40"
+            height="40"
+            alt="Mark Guerrero image" 
+            />
+        </li>
+        <li class="social-list">
+            <img src="images\Facebook.jpg" 
+            width="40"
+            height="40"
+            alt="Mark Guerrero image" 
+            />
+        </li>
+        <li class="social-list">
+            <img src="images\Linkedin.jpg" 
+            width="40"
+            height="40"
+            alt="Mark Guerrero image" 
+            />
+        </li>
+    </ul>
+</div>
+*/
